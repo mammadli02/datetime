@@ -1,0 +1,100 @@
+body {
+    background-color: #bb4949;
+}
+
+.container {
+    margin: 20px auto;
+
+    width: 40%;
+    padding: 30px 50px;
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#timer {
+    color: white;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    color: #bb4949;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.todolist {
+
+    padding: 20px 20px 100px 20px;
+    margin-top: 30px;
+
+}
+
+.todolist li {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    list-style: none;
+    border-bottom: 1px solid white;
+
+}
+
+li button {
+    float: right;
+    color: #bb4949;
+    margin-left: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+#inputval {
+    width: 70%;
+    padding: 10px;
+}
+
+#addbutton {
+    color: #bb4949;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+
+}
+
+.delbtn {
+    padding: 10px;
+}
