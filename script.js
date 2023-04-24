@@ -43,10 +43,16 @@ function reset() {
 }
 
 //Time now
-let dates = document.querySelector("#date")
-var today = new Date();
-var time = `${today.getHours()} : ${today.getMinutes()} : ${today.getSeconds()}`;
-dates.innerHTML = time
+function myTimer() {
+    const date = new Date();
+    document.getElementById("date").innerHTML = date.toLocaleTimeString();
+  }
+  setInterval(myTimer, 1000);
+
+// let dates = document.querySelector("#date")
+// var today = new Date();
+// // var time = `${today.getHours()} : ${today.getMinutes()} : ${today.getSeconds()}`;
+// dates.innerHTML = time
 
 
 // //TO DO LIST
